@@ -1,0 +1,9 @@
+<launch>
+
+  <!-- Call In Publisher -->
+  <node pkg="euler_to_quarternion" name="converter"  type="converter_node.py" output="screen"/>
+
+  <!-- Launch Subscriber in new terminal-->
+  <node pkg="euler_to_quarternion" name="subscriber"  type="subscriber_node.py" output="screen" launch-prefix="gnome-terminal"/>
+
+</launch>

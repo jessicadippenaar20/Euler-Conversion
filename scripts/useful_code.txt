@@ -1,0 +1,9 @@
+quat_tf = [0, 1, 0, 0]
+#q_orig = quaternion_from_euler(1, 1, 1)
+#q_rot = quaternion_from_euler(pi, 0, 0)
+#q_new = quaternion_multiply(q_rot, q_orig)
+quat_msg = Quaternion(quat_tf[0], quat_tf[1], quat_tf[2], quat_tf[3])
+
+
+#print(quat_tf)
+    #print ("The quaternion representation is %s %s %s %s." % (q[0], q[1], q[2], q[3]))
